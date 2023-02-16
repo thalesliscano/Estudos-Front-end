@@ -8,4 +8,14 @@
 
 Estudos com as linguagem HTML e CSS na onde prático fazendo exercício passados.
 
+## Exercício 01
+<div class="_3xYY6QR2VuQXUgyDTl0hyu _3zM-WhDmCDfr3adQw5Zj3I" data-sticker="false"><div><div><video alt="Animated GIF" src="https://media4.giphy.com/media/wJZaedjaajVZ9dwHLq/giphy.mp4" poster="https://media4.giphy.com/media/wJZaedjaajVZ9dwHLq/giphy_s.gif" autoplay="" loop="" playsinline="" style="width: 100%; height: 100%;"></video><img src="https://media4.giphy.com/media/wJZaedjaajVZ9dwHLq/giphy.gif" alt="Animated GIF" style="width: 100%; height: 100%; opacity: 0;"></div></div></div>
 
+## Exercício 02
+<div class="_3xYY6QR2VuQXUgyDTl0hyu _3zM-WhDmCDfr3adQw5Zj3I" data-sticker="false"><div><div><video alt="Animated GIF" src="https://media3.giphy.com/media/nkg4koNKduk03icFiT/giphy.mp4" poster="https://media3.giphy.com/media/nkg4koNKduk03icFiT/giphy_s.gif" autoplay="" loop="" playsinline="" style="width: 100%; height: 100%;"></video><img src="https://media3.giphy.com/media/nkg4koNKduk03icFiT/giphy.gif" alt="Animated GIF" style="width: 100%; height: 100%; opacity: 0;"></div></div></div>
+
+## Exercício 03
+<div class="_3xYY6QR2VuQXUgyDTl0hyu _3zM-WhDmCDfr3adQw5Zj3I" data-sticker="false"><div><div><video alt="Animated GIF" src="https://media4.giphy.com/media/BoyJ8YnxFQb370arce/giphy.mp4" poster="https://media4.giphy.com/media/BoyJ8YnxFQb370arce/giphy_s.gif" autoplay="" loop="" playsinline="" style="width: 100%; height: 100%;"></video><img src="https://media4.giphy.com/media/BoyJ8YnxFQb370arce/giphy.gif" alt="Animated GIF" style="width: 100%; height: 100%; opacity: 0;"></div></div></div>
+
+## Exercício 04
+<div class="_3xYY6QR2VuQXUgyDTl0hyu _3zM-WhDmCDfr3adQw5Zj3I" data-sticker="false"><div><div><video alt="Animated GIF" src="https://media1.giphy.com/media/1RcO47NbLgicCh52wp/giphy.mp4" poster="https://media1.giphy.com/media/1RcO47NbLgicCh52wp/giphy_s.gif" autoplay="" loop="" playsinline="" style="width: 100%; height: 100%;"></video><img src="https://media1.giphy.com/media/1RcO47NbLgicCh52wp/giphy.gif" alt="Animated GIF" style="width: 100%; height: 100%; opacity: 0;"></div></div></div>
