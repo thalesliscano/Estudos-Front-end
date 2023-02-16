@@ -1,0 +1,41 @@
+/* Configure the page */
+body {
+  margin: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+
+
+/* Mainpage */
+#title {
+  color: brown;
+}
+
+.subtitle  {
+  color: rgb(216, 121, 140);
+}
+
+.city {
+  color: green;
+  text-decoration: none;
+}
+
+/* Subpages */
+.home {
+  color: rgb(76, 76, 238);
+  text-decoration: none;
+}
+
+.today {
+  color: darkred;
+}
+
+.tomorrow {
+  color: darkblue;
+}
+
+

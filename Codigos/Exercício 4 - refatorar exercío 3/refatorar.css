@@ -1,0 +1,168 @@
+/* Configurações gerais */
+body {
+    display: grid;
+    font-family: arial;
+    margin-top:3.125rem;
+    background-color: #f7f7f7;
+    gap: 3.75rem;
+}
+
+a {
+    border-radius: 0.25rem;
+    text-decoration: none;
+}
+
+p,h1,h2,h3 {
+  margin: 0rem;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.3;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+/* -------------------------------------------------------------------------------/
+/* id grid */
+#conteudo {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 62.5rem;
+    border-radius: 0.25;
+    justify-self: center;
+    position: relative;
+  }
+/* -------------------------------------------------------------------------------*/
+/* items com class */ 
+/* Novo */
+/* Troquei a cor da imagem svg */
+.label-header {
+  display: grid;
+  gap: 2rem;
+  justify-items: center;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.563rem;
+}
+
+/* Novo */
+/* Adicionei um pseudoelemento pra fazer o detalhe vermelho */
+/* Novo detalhe */
+.introducao::before {
+  content: "";
+  width: 3.75rem;
+  height: 0.25rem;
+  background-color: #e21;
+  position: absolute;
+  top: 1.25rem;
+  right: -1.875rem;
+}
+
+.introducao {
+    display: grid;
+    background-color: white;
+    padding: 2.5rem;
+    text-align: right;
+    position: relative; 
+    align-content: center;
+    justify-content: center;
+    gap: 1.25rem;
+    justify-items: right;
+/*Estava com dúvida por que o a não se alinha a direita, então quando coloquei esse text-align, ele foi... */
+}
+
+/* Novo */
+/* Adicionei */
+.conteudo-subtitulo {
+  display: grid;
+  justify-content: center;
+  /* padding: 2.5rem; */
+  background-image: url("./img/onda.svg"); 
+}
+
+.subtitulo {
+    font-size: 4rem;
+    color: #c6c6c6;
+    text-align: right;
+    align-self: center;
+    padding: 2rem;
+    
+}
+
+/* Novo */
+/* Já existiam essas duas classes(vantagens e vantagens-items, apenas mudei vantagens(ul) e vantagens-items(li) */
+.vantagens {
+  padding: 2rem;
+  background-color: #fff;
+  list-style:none; 
+  margin: 0rem; 
+}
+
+.vantagens-items {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.625rem 1.25rem;
+  padding: 1.25rem;
+  margin: 0rem;
+  border-left: 4px solid #fff;
+}
+/* -------------------------------------------------------------------------------/
+/* Elementos/items */
+.links a {
+    padding: 0.938rem 1.563rem;
+    color: #000;
+    background-color: #fff;
+    border: 0.2rem solid white;
+}
+
+/* Novo */
+/* Adicionei pseudo class hover nos links do menu */
+.links a:hover {
+  border: 0.2rem solid red;
+  max-height: 100%;
+}
+
+.introducao a {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    background-color: #ee2211;
+    padding: 0.938rem 1.563rem;
+}
+
+/* Novo */
+/*Adicionei um pseudo class hover no link do conteúdo principal */
+.introducao a:hover {
+  background-color: #900;
+} 
+
+/* Novo */
+/* Adicionei uma pseudo class para mudar o background dos items da lista ímpares */
+.vantagens li:nth-child(odd) {
+  background-color: #cfcfcf;
+} 
+
+.vantagens-items:hover {
+  border-left: 0.25rem solid #e21;
+}
+
+.vantagens-items p {
+  grid-column: 2;
+  text-align: start;
+} 
+
+.rodape {
+  margin: 0rem;
+  text-align: center;
+  padding: 2.5rem;
+  background-color: #fff;
+  box-sizing: border-box;
+  width: 100%;
+}
+

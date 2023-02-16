@@ -1,0 +1,56 @@
+/* Reset the page */
+body {
+  margin: 50px;
+  font-family:  Arial, Helvetica, sans-serif;
+}
+
+
+/* Mainpage */
+.box_pai {
+  background-color: #111;
+  border-radius: 5px;
+  margin: 50px;
+}
+
+div {
+  margin: 10px;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  color: white;
+}
+
+span {
+  color: #febe01;
+}
+
+p {
+  margin: 20px;
+  color: #b2b2b2;
+  padding:30 ;
+}
+
+a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  color: #332200;
+  background-color: #febe01;
+  border-radius: 4px;
+  padding: 10px;
+
+}
+
+/* Carro e bicicleta*/
+img {
+ width:400px;
+}
+.item {
+  place-content: center;
+}
+
