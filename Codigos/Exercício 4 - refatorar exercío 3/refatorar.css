@@ -1,10 +1,36 @@
+:root {
+  --cor_primaria:#e21;
+  --cor_primaria_forte:#900;
+  --fundo1:#f7f7f7;
+  --fundo2:#fff;
+  --texto:#000;
+  --subtitulo:rgba(0,0,0,0.2);
+  --onda:url("./img/onda-clara.svg");
+}
+
+
+
+
+
+@media (prefers-color-scheme:dark) {
+  :root {
+    --fundo1:#111;
+    --fundo2:#000;
+    --texto:#fff;
+    --subtitulo:rgba(255,255,255,0.2);
+    --onda:url("./img/onda-escura.svg");
+  } 
+}
+
 /* Configurações gerais */
 body {
     display: grid;
     font-family: arial;
     margin-top:3.125rem;
-    background-color: #f7f7f7;
+    background-color: var(--fundo1);
     gap: 3.75rem;
+    color: var(--texto);
+
 }
 
 a {
@@ -49,6 +75,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 1.563rem;
+    justify-content: center;
 }
 
 /* Novo */
@@ -58,7 +85,7 @@ img {
   content: "";
   width: 3.75rem;
   height: 0.25rem;
-  background-color: #e21;
+  background-color: var(--cor_primaria);
   position: absolute;
   top: 1.25rem;
   right: -1.875rem;
@@ -66,7 +93,7 @@ img {
 
 .introducao {
     display: grid;
-    background-color: white;
+    background-color: var(--fundo2);
     padding: 2.5rem;
     text-align: right;
     position: relative; 
@@ -83,12 +110,12 @@ img {
   display: grid;
   justify-content: center;
   /* padding: 2.5rem; */
-  background-image: url("./img/onda.svg"); 
+  background-image: var(--onda); 
 }
 
 .subtitulo {
     font-size: 4rem;
-    color: #c6c6c6;
+    color: var(--subtitulo);
     text-align: right;
     align-self: center;
     padding: 2rem;
@@ -99,7 +126,7 @@ img {
 /* Já existiam essas duas classes(vantagens e vantagens-items, apenas mudei vantagens(ul) e vantagens-items(li) */
 .vantagens {
   padding: 2rem;
-  background-color: #fff;
+  background-color: var(--fundo2);
   list-style:none; 
   margin: 0rem; 
 }
@@ -110,21 +137,21 @@ img {
   gap: 0.625rem 1.25rem;
   padding: 1.25rem;
   margin: 0rem;
-  border-left: 4px solid #fff;
+  border-left: 4px solid var(--fundo2);
 }
 /* -------------------------------------------------------------------------------/
 /* Elementos/items */
 .links a {
     padding: 0.938rem 1.563rem;
-    color: #000;
-    background-color: #fff;
+    color: var(--texto);
+    background-color: var(--fundo2);
     border: 0.2rem solid white;
 }
 
 /* Novo */
 /* Adicionei pseudo class hover nos links do menu */
 .links a:hover {
-  border: 0.2rem solid red;
+  border: 0.2rem solid var(--cor_primaria);
   max-height: 100%;
 }
 
@@ -132,14 +159,14 @@ img {
     display: inline-block;
     text-align: center;
     color: white;
-    background-color: #ee2211;
+    background-color: var(--cor_primaria);
     padding: 0.938rem 1.563rem;
 }
 
 /* Novo */
 /*Adicionei um pseudo class hover no link do conteúdo principal */
 .introducao a:hover {
-  background-color: #900;
+  background-color: var(--cor_primaria_forte);
 } 
 
 /* Novo */
@@ -149,7 +176,7 @@ img {
 } 
 
 .vantagens-items:hover {
-  border-left: 0.25rem solid #e21;
+  border-left: 0.25rem solid var(--cor_primaria);
 }
 
 .vantagens-items p {
@@ -161,8 +188,21 @@ img {
   margin: 0rem;
   text-align: center;
   padding: 2.5rem;
-  background-color: #fff;
+  background-color: var(--fundo2);
   box-sizing: border-box;
   width: 100%;
+}
+
+
+@media (max-width:950px) {
+  #conteudo {
+    grid-template-columns: 1fr;
+  }
+  .introducao::before {
+    width: 0.300rem;
+    height: 3rem;
+    top: 92%;
+    left: 45%;
+  }
 }
 
